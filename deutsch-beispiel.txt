@@ -1,0 +1,237 @@
+Die Frau, die wie ein Computer rechnete.
+
+Artikel-Inhalttext: Von Kristina Vaillant
+
+Als Katherine Johnson im Sommer 1953 beim Langley Research Center, der amerikanischen Raumfahrtbehörde in Hampton
+im Bundesstaat Virginia, anfing, war sie eine von mehreren Hundert meist weiblichen Mathematikerinnen. Computers
+nannte man sie. In drei Schichten an sechs Tagen in der Woche rund um die Uhr lieferten sie mit ihren mechanischen
+Rechenmaschinen Daten für die Aerodynamik-Experimente der Ingenieure im Windkanal.
+
+Weil während des Zweiten Weltkriegs viele Männer in den Krieg gezogen waren und es an Arbeitskräften mangelte,
+warb die Forschungseinrichtung seit 1943 gezielt Frauen an, auch schwarze. Separiert von der weißen
+Computers-Gruppe, in der einzelne Frauen bereits seit den 30er-Jahren tätig waren, arbeiteten die
+Afroamerikanerinnen in einem Neubau, der auf dem westlichen Teil des Geländes lag. Sie waren die West Computers.
+
+"WIR BEKAMEN RIESIGE DATENBÖGEN mit vielleicht 15 oder 20 Spalten und 25 Zeilen. Du hast deine Variable eingesetzt
+und musstest dann die Gleichungen durchrechnen, das dauerte mehrere Tage", berichtete Johnson vor einigen Jahren
+in einem Interview.
+
+Für die Ingenieure, die beim National Advisory Committee for Aeronautics, kurz Naca, der Vorgängerorganisation der
+Nasa, die wissenschaftlichen Grundlagen für die Luftfahrt erarbeiteten, waren Johnson und ihre Kolleginnen
+namenlose Hilfskräfte. Die Frauen erledigten die zeitraubenden Berechnungen, damit die Männer ihre
+wissenschaftlichen Experimente vornehmen und Berichte darüber veröffentlichen konnten. Katherine Johnson jedoch
+unterschied sich von den anderen. Im Jahr 1960 lieferte sie in Langley den ersten Forschungsbericht ab, unter dem
+der Name einer schwarzen Frau stand.
+
+"When computers wore skirts" ("Als die Computer Kleider trugen"), heißt es oft über die Zeit, in der
+wissenschaftliche Berechnungen nicht per Computer, sondern noch per Hand von Assistenten ausgeführt wurden. Dabei
+war diese Tätigkeit bis zum Zweiten Weltkrieg fast ausschließlich Männersache gewesen. Der amerikanische
+Wissenschaftshistoriker David Allen Grier schreibt in seinem Buch "When Computers were human", es sei ein Beruf
+für diejenigen gewesen, die zwar in Mathematik gut ausgebildet waren, aber weder über das notwendige Geld noch
+über die gesellschaftlichen Verbindungen verfügten, um Karriere zu machen. Neben Afroamerikanern hätten daher auch
+Juden und irische Einwanderer, Körperbehinderte und generell Menschen aus prekären Verhältnissen als 
+Rechenassistenten gearbeitet. Eine wissenschaftliche Karriere blieb den meisten versagt. Frauen stellten erst mit
+dem Anbruch der 40er-Jahre die größte Gruppe unter den Computers.
+
+Dem 2016 erschienenen und noch im gleichen Jahr verfilmten Buch "Hidden Figures" von Margot Lee Shatterly ist es
+zu verdanken, dass Katherine Johnsons beeindruckende Geschichte nicht unerzählt blieb. Die 1918 geborene
+Mathematikerin hat den späten Ruhm sogar noch miterlebt. Und genießt ihn vermutlich noch immer: Diesen Sonntag
+wird sie 100 Jahre alt.
+
+In einer Schlüsselszene des Films "Hidden Figures", der 2017 in Deutschland in die Kinos kam und die Geschichte
+von Johnson und zwei weiteren Frauen aus der West-Computing-Group erzählt, steht die Protagonistin vor der großen
+Tafel im Büro der Forschungsabteilung Space Task Group. Dorthin war sie versetzt worden, weil die Ingenieure
+dringend Mathematiker mit dem Spezialgebiet Vektorgeometrie brauchten.
+
+Das Langley Research Center war 1958, fünf Jahre nach Johnsons Eintritt in die Behörde, Teil des ersten Programms
+der Nasa für die bemannte Raumfahrt geworden. Damit hofften die USA nach dem Sputnik-Schock den Wettlauf um den
+technologischen Vorsprung der Supermächte zu gewinnen. Die Sowjetunion hatte schon im Oktober 1957 mit Sputnik 1
+den ersten Satelliten in die Erdumlaufbahn geschossen und damit die Raumfahrt begründet.
+
+Die Space Task Group, in die Johnson aufgestiegen war, sollte die Flugbahnen für die bemannten Missionen ins
+Weltall berechnen: vom Moment des Abschusses am Boden über die Umrundung der Erde in der Umlaufbahn bis zur
+Landung der Raumkapsel im Atlantik.
+
+Im Film steigt Johnson im Großraumbüro auf die Leiter, notiert ihre Berechnungen auf der übermannshohen Tafel und
+erläutert, umringt von ihren staunenden Kollegen, warum die bisher eingesetzte Redstone-Rakete nicht geeignet sei,
+eine Raumkapsel bis in die Erdumlaufbahn zu katapultieren. Vermutlich hat sich die Szene in Wirklichkeit nie so
+zugetragen. Im Film ist es der Moment, in dem Katherine Johnson aus dem Schatten der namenlosen Computers
+heraustritt. Abteilungsleiter Al Harrison, ein fiktiver Charakter, erkundigt sich nach Johnsons "Auftritt" zum
+ersten Mal nach dem Namen seiner einzigen schwarzen Mitarbeiterin. Damit ist die Karriere der brillanten
+Mathematikerin nicht mehr aufzuhalten.
+
+Zwar muss sie nach wie vor in dem Teil des Speiseraums ihre mitgebrachte Mahlzeit essen, der mit "Colored only"
+gekennzeichnet ist. Dennoch bekommt sie 1959 einen der verantwortungsvollsten Aufträge überhaupt: die Berechnung
+der Flugbahn für die erste bemannte Raumkapsel der Nasa. Die Mission - ein sogenannter ballistischer Weltraumflug
+- ist erfolgreich. Der Astronaut Alan Shepard wird am 5. Mai 1961 in den Weltraum katapultiert, erreicht eine Höhe
+von 187 Kilometern und landet nach 15 Minuten und 22 Sekunden sicher in den Wellen des Atlantiks. Damit war er der
+erste Amerikaner im Weltraum. Aber: Wenige Wochen zuvor, am 12. April, hatte der sowjetische Kosmonaut Juri
+Gagarin als erster Mensch die Erde in 106 Minuten umkreist.
+
+Die USA planten daraufhin ebenfalls eine bemannte Raumfahrtmission mit Erdumrundung. Katherine Johnson und ihre
+Kollegen wurden mit den Berechnungen für die Flugbahn betraut. Und wieder wird im Film eine dramaturgische
+Schlüsselszene vor der großen Tafel inszeniert. "Problematisch wird es, wenn die Kapsel von einer elliptischen
+Umlaufbahn in eine parabolische übergeht, es gibt keine mathematische Formel dafür", sagt Katherine Johnson und
+stellt damit unter Beweis, wie schnell und präzise sie rechnen kann.
+
+Die größte Herausforderung bei der Berechnung der Flugbahnen war, den Astronauten wieder sicher auf die Erde zu
+bringen. Neben der Berechnung der Umlaufbahn um die Erde war eine zentrale Frage, wann die Bremsraketen vor dem
+Eintritt in die Erdatmosphäre gezündet werden sollten, damit die Raumkapsel sicher in der vorgesehenen Zone
+landet.
+
+"BEI DEN ERSTEN RAUMFLÜGEN musste man Sicherheitskorridore für den Eintritt in die Erdatmosphäre festlegen",
+erläutert Michael Kirschner, Experte für flugdynamische Berechnung am Deutschen Zentrum für Luft- und Raumfahrt
+(DLR) in München. "Wenn die Abbremsung durch die Zündung der Bremsraketen zu stark ist, tritt die Kapsel in einem
+zu spitzen Winkel in die Erdatmosphäre ein, und es besteht die Gefahr, dass die Kapsel verglüht." Bei einem zu
+schwachen Bremsmanöver wiederum pralle die Kapsel an der Erdatmosphäre ab - und fliege von der Erde weg.
+
+Katherine Johnson nutzte altes Wissen, um das Problem zu lösen: das Euler-Verfahren. Es war von dem Schweizer
+Mathematiker und Physiker Leonhard Euler zweihundert Jahre zuvor in seinem Buch "Institutiones Calculi Integralis"
+beschrieben worden und wird als Methode der kleinen Schritte bezeichnet. Es ist ein sogenanntes iteratives
+Verfahren, das häufig bei Problemen angewendet wird, die nicht exakt gelöst werden können, weil es zu viele
+Variablen gibt.
+
+So ist es auch bei der Berechnung der Flugbahn von Objekten wie der Raumkapsel im All. Auf sie wirken verschiedene
+Kräfte gleichzeitig. Bei den flugdynamischen Berechnungen für den Moment des Eintritts in die Erdatmosphäre muss
+nicht nur die Rotation der Erde berücksichtigt werden, sondern auch ihr Gravitationsfeld, das je nach Standort
+variiert. Darüber hinaus ist die Anziehungskraft des Mondes zu beachten. Beim Euler-Verfahren wird ein erster Wert
+berechnet und in die nächste Gleichung eingesetzt. Indem man so fortfährt, nähert man sich einer Lösung an. Am
+Ende dieser Kette von Gleichungen steht zwar kein exaktes Ergebnis, aber die Abweichung davon wird von Gleichung
+zu Gleichung geringer.
+
+"INGENIEURE KANNTEN DIE GLEICHUNGEN, um das Problem zu beschreiben, aber eben nicht die Verfahren, um sie zu
+lösen. Dieses mathematische Wissen, das jemand wie Katherine Johnson hatte, bekommt man in der Ingenieurausbildung
+nicht unbedingt vermittelt", erläutert DLR-Experte Kirschner. Um die Erzählung dramaturgisch zuzuspitzen, wird im
+Film der Eindruck erweckt, es sei allein Johnsons Verdienst gewesen, das explizite Eulerverfahren als Methode für
+die numerische Lösung von Differentialgleichungen eingebracht zu haben. Tatsächlich hat mit ihr wohl das gesamte
+Team an der Kette von Differentialgleichungen gearbeitet. Das jedenfalls gab der mathematische Berater der
+Filmproduktion im Magazin des American Institute of Physics zu Protokoll.
+
+Was 1962 gewiss allein in Katherine Johnsons Hand lag, war die Überprüfung der Berechnungen für die Flugbahn der
+ersten Erdumrundung. Erstmals hatte die Nasa dafür einen elektronischen Computer eingesetzt, ein Großrechner vom
+Typ IBM 7090, der erst kurz zuvor installiert worden war. Bei einer Leistung von 24 000 Multiplikationen pro
+Sekunde konnten Rechenoperationen, die per Hand Stunden dauerten, nun innerhalb von Sekundenbruchteilen ausgeführt
+werden.
+
+Doch offenbar gab es bei der Nasa Wissenschaftler, die den Rechenkünsten des elektronischen Computers nicht
+trauten. "Sie baten uns recht häufig, die Berechnungen zu prüfen, bis sie sich ihrer Sache sicher waren",
+berichtete Johnson später. Es sei eine Zeit gewesen, in der man sich habe versichern wollen, dass die
+Computerberechnungen korrekt waren. "Wenn sie meint, dass es stimmt, dann stimmt es, so sagten sie", erinnert sich
+die Mathematikerin.
+
+DIE MISSION WAR EIN ENTSCHEIDENDER ERFOLG für die USA. Schließlich galt der technologische Vorsprung, den die
+Sowjetunion in der Raumfahrt bewiesen hatte, in Zeiten des Kalten Krieges als Bedrohung der nationalen Sicherheit.
+Der Astronaut John Glenn wurde am 20. Februar 1962 in seiner Raumkapsel Friendship 7 von Cape Canaveral in Florida
+mit der Atlas-Rakete in den Weltraum geschossen. Innerhalb der nächsten 4 Stunden und 56 Minuten umrundete er die
+Erde mit einer Geschwindigkeit von 17 000 Meilen pro Stunde, bevor er 800 Meilen südöstlich der Inselgruppe
+Bermuda sicher im Atlantik geborgen wurde. Den Start verfolgte die ganze Nation voller Spannung vor dem Fernseher,
+und John Glenn wurde nach seiner Rückkehr als Nationalheld gefeiert.
+
+Glenn, Johnson und alle anderen, die den ersten bemannten Orbitalflug der Nasa vorbereitet hatten, hatten den
+Beweis erbracht, dass die USA im Wettlauf um die Raumfahrt mit der Sowjetunion mithalten konnten. Die erfolgreiche
+Raumfahrtmission machte auch Katherine Johnson bekannt. Zumindest in der afroamerikanischen Presse wurde über
+ihren Anteil daran berichtet.
+
+Für die Nasa war der Eintritt von Johnson und ihren Kolleginnen in die Dienste der amerikanischen Raumfahrtbehörde
+ein historischer Glücksfall. Die jungen Frauen brachten Talent mit und dazu eine gehörige Portion Mut. Im Film
+"Hidden Figures" sind es, neben der entschlossen-ernsthaften Katherine Johnson, ihre eher kokette Kollegin Mary
+Jackson, die später die erste schwarze Nasa-Ingenieurin werden sollte, und die Leiterin der West-Computers-Group
+Dorothy Vaughan. Als die Abteilung 1958 aufgelöst wurde, hatte sich Vaughan längst zur Expertin für die
+Programmiersprache Fortran fortgebildet und auch dafür gesorgt, dass "ihre" Computers den Übergang ins
+Computerzeitalter überstehen.
+
+Dass diese Frauen in den 40er- und 50er-Jahren ihre Talente und Persönlichkeiten entfalten konnten, war
+außergewöhnlich. Schließlich war es eine Zeit, in der Afroamerikaner in den Südstaaten der USA durch die
+sogenannten Jim-Crow-Gesetze vom öffentlichen Leben praktisch ausgeschlossen wurden. Im Bus durften sie nur in den
+hinteren Reihen sitzen, die meisten Schulen und Universitäten waren Weißen vorbehalten.
+
+Schwarzen war es untersagt, Mitglied in Vereinen zu werden, und in der Bibliothek durften sie, wenn sie überhaupt
+einen Ausweis bekamen, nur die wenigen Bücher in den für die Schwarzen vorgesehen Regalen ausleihen. In der von
+weißen Männern dominierten Ingenieurswelt der Luftfahrt mussten sie doppelt Barrieren überwinden - als Frauen und
+als Schwarze in einer segregierten Gesellschaft.
+
+Katherine Johnson, die als begabte Schülerin Stipendien erhalten und mehrere Klassen übersprungen hatte, war 18
+Jahre alt, als sie 1937 das West Virginia State College, das ursprünglich ausschließlich für afroamerikanische
+Studenten gegründet worden war, mit einem Abschluss in Mathematik und Französisch verließ. Zu dieser Zeit stand
+ihr in ihrem Heimatstaat West Virginia im Süden der USA allenfalls eine Stelle als Lehrerin offen - an einer der
+Schulen, die ausschließlich für Kinder von Afroamerikanern eingerichtet worden waren, weil sie die der Weißen
+nicht besuchen durften.
+
+Auch Johnsons Mutter war Lehrerin gewesen, ihr Vater selbstständiger Landwirt und Handwerker. Damit gehörte ihre
+Familie zur kleinen Mittelschicht, die sich unter den Nachfahren der Sklaven im Süden der USA entwickelt hatte.
+Die Bildung ihrer vier Kinder lag Johnsons Eltern am Herzen. "Mein Vater wollte, dass ich etwas Besseres werde
+als Grundschullehrerin", erzählte Katherine Johnson. Wer als Afroamerikaner nicht zur gut ausgebildeten
+Mittelschicht gehörte, pflegte die Gärten der weißen Oberschicht, kümmerte sich als Nanny um deren Kinder, war
+Zugschaffner oder Hausmeister.
+
+IN DER SCHULE UND AUCH AM COLLEGE wurde Katherine Johnson von Lehrerinnen und Lehrern unterrichtet, die sie
+inspirierten und förderten. Sie bewunderte ihre Mathelehrerin in der Grundschule, und auch in der Highschool war
+es wiederum eine Lehrerin, die sie überzeugte, Mathematik zu studieren und nicht, wie es ursprünglich ihr Plan
+war, ausschließlich Sprachen. Auch am College erkannte man ihre Begabung und förderte sie. Der Mathematikprofessor
+versicherte ihr, sie habe das Zeug, als Mathematikerin in der Forschung zu arbeiten und trug seinen Teil dazu bei,
+indem er ihr Einzelunterricht in Höherer Mathematik erteilte.
+
+Aber es brauchte noch mehr als die Eltern, die für ihre Tochter mehr wollten, und Lehrer, die der jungen Frau
+etwas zutrauten. Denn die Hürden auf dem Weg zur Nasa-Mathematikerin waren hoch. Die Jahre nach dem Ende der
+Wirtschaftskrise in den USA, die die schwarze Bevölkerung als erste und am heftigsten getroffen hatte, waren eine
+Zeit der Hoffnung und des Aufbruchs.
+
+Viele Afroamerikaner hatten bei den Präsidentschaftswahlen 1932 mit Franklin D. Roosevelt erstmals einen
+Kandidaten der demokratischen Partei zum Präsidenten gewählt, ein Präsident, der mit seinem als "New Deal"
+bezeichneten politischen Programm einen modernen Wohlfahrtsstaat errichten wollte.
+
+Dennoch schätzte die fortschrittliche Politik Franklin D. Roosevelts die schwarze Bevölkerung nicht vor
+rassistischer Willkür von Vorgesetzten, Unternehmern und Beamten. Bis das Oberste Gericht der USA im November 1956
+entschied, dass die Rassentrennung in Bussen verfassungswidrig ist, und bis zum Civil Rights Act von 1964, der
+jegliche Diskriminierung aufgrund von Rasse, Hautfarbe, Religion oder Nationalität verbieten sollte, war es noch
+ein weiter Weg.
+
+Katherine Johnson, die junge College-Absolventin aus der schwarzen Mittelschicht, trat in einem historisch
+günstigen Moment ins Berufsleben ein. Arbeitskräfte, vor allem qualifizierte, waren nach dem Ende der
+Wirtschaftskrise Anfang der 40er-Jahre in den USA Mangelware. Die aufblühende Luftfahrtindustrie, dazu gehörte
+auch das Forschungszentrum in Langley, war als kriegswichtig erklärt worden. Die USA rüsteten auf, Fabriken und
+Farmen stellten wieder ein. Die Arbeitslosigkeit sank in atemberaubenden Tempo: 1940 zählten die Behörden 7,7
+Millionen Arbeitslose, zweieinhalb Jahre später, im Herbst 1942, war die Zahl auf 1,5 Millionen geschrumpft.
+
+Dieser Sog hatte der Bürgerrechtsbewegung in den Vereinigten Staaten, die unter dem Motto "Jobs for all" für
+ökonomische Teilhabe kämpfte, Rückenwind verschafft. Nachdem Asa Philip Randolph, der Gründer und Anführer der
+ersten schwarzen Gewerkschaft, mit einem Marsch nach Washington gedroht hatte, hob Präsident Franklin D. Roosevelt
+am 25. Juni 1941 mit Erlass 8802 die Rassentrennung in der Rüstungsindustrie auf. Darunter fiel auch das
+Forschungszentrum der Raumfahrtbehörde in Langley. Und weil dort dringend Verstärkung bei den Computers gebraucht
+wurde, ergriff man in der Personalabteilung die Gelegenheit und warb 1943, zwei Jahre nach dem Erlass, in großen
+Zeitungsanzeigen erstmals gezielt um Afroamerikanerinnen. Etliche fanden in dieser Zeit auch Arbeit in
+Industriebetrieben.
+
+Unter Roosevelts Präsidentschaft war Afroamerikanern auch der Zugang zum öffentlichen Dienst erleichtert worden,
+unter anderem weil fortan Bewerbungen kein Foto mehr beigelegt werden musste. Der Mangel an Arbeitskräften und der
+Kampf der Bürgerrechtsbewegung Anfang der 40er-Jahre hatte die Barrieren für Afroamerikaner ein Stück abgetragen.
+Davon profitierten alle: Staat, Wirtschaft und Bevölkerung. Die Emanzipation der Schwarzen bekam einen Schub - und
+das junge Mathematiktalent aus White Sulphur Springs in West Virginia mit der Einstellung als Computer in Langley
+die Chance ihres Lebens.
+
+KATHERINE JOHNSON SELBST NENNT ES rückblickend Glück. "Glück ist eine Kombination aus Vorbereitung und
+Gelegenheit. Wenn du vorbereitet bist und sich eine günstige Gelegenheit bietet, dann ist es dein Glück, dass du
+zur richtigen Zeit am richtigen Ort und vorbereitet auf den Job warst." Mit diesen Worten wird sie auf der Website
+des National Visionary Leadership Project zitiert. Katherine Johnson arbeitete 33 Jahre bei der NASA, 1986 wurde
+sie pensioniert. Während sie Karriere machte, zog sie drei Töchter groß, nach dem Tod ihres ersten Mannes zunächst
+alleine - mit Unterstützung ihrer Mutter. Im Film wird ihr Privatleben eher am Rande miterzählt. Eines wird in
+diesen Szenen aber deutlich. Ohne Familie, Kirchengemeinde, Freunde und Kollegen, ohne den Rückhalt und die
+Solidarität der Gemeinschaft wäre ihr Leben anders verlaufen.
+
+Die Autorin des Buchs "Hidden Figures" weiß, wovon sie schreibt: Margot Lee Shatterly, 49, ist selbst
+Afroamerikanerin und Tochter eines Ingenieurs, der ebenfalls bei der Nasa arbeitete. 2016 in den USA erschienen,
+schaffte es das Sachbuch, das ausführlicher als der Film über die historischen Umstände berichtet, rasch auf die
+Bestsellerliste. Inzwischen ist es in 16 Sprachen übersetzt. 2015 hatte Präsident Barack Obama die
+Nasa-Mathematikerin Katherine Johnson mit der Presidential Medal of Freedom gewürdigt, der höchsten zivilen
+Auszeichnung der Vereinigten Staaten.
+
+Dass fast sechs Jahrzehnte verstreichen mussten, ehe ihre Leistungen gewürdigt wurden, zeigt, dass der historische
+Moment, der sie möglich machte, eine Dynamik in Gang setzte, auf die die Gesellschaft noch gar nicht vorbereitet
+war. Frauen wie Katherine Johnson waren es schon.
+
+"Glück ist eine Kombination aus Vorbereitung und Gelegenheit. Wenn du vorbereitet bist und sich eine günstige
+Gelegenheit bietet, dann ist es Dein Glück, dass du zur richtigen Zeit am richtigen Ort und vorbereitet auf den
+Job warst."
+
+Katherine Johnson, eine der ersten Afroamerikanerinnen, die bei der Nasa als Mathematikerin Karriere machte.
+Sie arbeitete bei der US-Behörde von 1953 bis 1986.
