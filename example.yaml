@@ -1,0 +1,465 @@
+openapi: 3.0.0
+info:
+  title: Hallo Welt
+  description: Implementiert Hallo Welt
+  version: 1.7.0
+paths:
+  /v3/mining/orders:
+    post:
+      summary: |
+        Erzeugt einen neuen Hallo.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MiningOrder'
+      responses:
+        '200':
+          description: |
+            Ein äquivalenter Mining-Auftrag wird derzeit bearbeitet.
+            
+            Im `MiningOrderReceipt` steht im Feld `orderId` Nummer des Mining-Auftrags, unter der sein Verarbeitungsstatus und das Ergebnis abgefragt werden können.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MiningOrderReceipt'
+          headers:
+            Link:
+              $ref: '#/components/headers/Link'
+          links:
+            getMiningOrderStatus:
+              $ref: '#/components/links/GetMiningOrderStatus'
+            getMiningResult:
+              $ref: '#/components/links/GetMiningOrderResult'
+        '201':
+          description: |
+            Der Mining-Auftrag wurde erfolgreich angelegt.
+            
+            Im `MiningOrderReceipt` steht im Feld `orderId` Nummer des Mining-Auftrags, unter der sein Verarbeitungsstatus und das Ergebnis abgefragt werden können.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MiningOrderReceipt'
+          headers:
+            Link:
+              $ref: '#/components/headers/Link'
+          links:
+            getMiningOrderStatus:
+              $ref: '#/components/links/GetMiningOrderStatus'
+            getMiningResult:
+              $ref: '#/components/links/GetMiningOrderResult'
+        '401':
+          description: |
+            Nicht autorisiert, z.B. wegen fehlendem/ungültigem Token oder fehlender Berechtigung des Nutzers.
+        '429':
+          description: |
+            Der Mining-Auftrag ist ein weiteres Duplikat eines derzeit bearbeiteten Auftrags, und die maximale zulässige Anzahl an Duplikaten für diesen Auftrag wurde überschritten.
+        '4XX':
+          description: |
+            Anderer Nutzerfehler.
+        '5XX':
+          description: |
+            Interner Fehler.
+
+  /v3/mining/orders/{orderId}/status:
+    get:
+      summary: |
+        Erfragt den Verarbeitungsstatus eines Mining-Auftrags.
+      operationId: getMiningOrderStatus
+      parameters:
+        - name: Authorization
+          in: header
+          description: |
+            OAuth2 bearer token im Format "Bearer eyJraWQi..."
+          required: true
+          schema:
+            type: string
+        - name: orderId
+          in: path
+          description: |
+            Nummer des Mining-Auftrags.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: |
+            Verarbeitungsstatus des Mining-Auftrags.
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/MiningOrderProcessingStatus'
+          headers:
+            Link:
+              $ref: '#/components/headers/Link'
+          links:
+            getMiningResult:
+              $ref: '#/components/links/GetMiningOrderResult'
+        '400':
+          description: |
+            Ungültige Auftragsnummer.
+        '401':
+          description: |
+            Nicht autorisiert, z.B. wegen fehlendem/ungültigem Token oder fehlender Berechtigung des Nutzers.
+        '404':
+          description: |
+            Unbekannte Auftragsnummer.
+        '5XX':
+          description: |
+            Interner Fehler.
+
+  /v3/mining/orders/{orderId}/result:
+    get:
+      summary: |
+        Erfragt die Ergebnisse eines Mining-Auftrags
+      operationId: getMiningOrderResult
+      parameters:
+        - name: Authorization
+          in: header
+          description: |
+            OAuth2 bearer token im Format "Bearer eyJraWQi..."
+          required: true
+          schema:
+            type: string
+        - name: orderId
+          in: path
+          description: |
+            Nummer des Mining-Auftrags
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: |
+            Liste der Ergebnisse zu diesem Mining-Auftrag.
+          content:
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MiningResult'
+                xml:
+                  name: miningResults
+                  wrapped: true
+        '400':
+          description: |
+            Ungültige Auftragsnummer.
+        '401':
+          description: |
+            Nicht autorisiert, z.B. wegen fehlendem/ungültigem Token oder fehlender Berechtigung des Nutzers.
+        '404':
+          description: |
+            Für die angegebene Auftragsnummer konnte kein Ergebnis gefunden werden.
+        '500':
+          description: |
+            Beim Abrufen des Ergebnisses ist ein interner Fehler aufgetreten.
+
+components:
+  links:
+    GetMiningOrderStatus:
+      description: |
+        Der `orderId`-Wert in der Antwort kann als Parameter in `GET /v3/mining/orders/{orderId}/status verwendet werden.
+      operationId: getMiningOrderStatus
+      parameters:
+        orderId: '$response.body#/orderId'
+    GetMiningOrderResult:
+      description: |
+        Der `orderId`-Wert in der Antwort kann als Parameter in `GET /v3/mining/orders/{orderId}/result verwendet werden.
+      operationId: getMiningOrderResult
+      parameters:
+        orderId: '$response.body#/orderId'
+
+  headers:
+    Link:
+      description: |
+        Dieser Header enthält Links, mit denen der Status und das Ergebnis eines Mining-Auftrags abgefragt werden können.
+      schema:
+        type: array
+        items:
+          type: string
+          format: uri
+      example: ['http://example.com/api/v3/mining/orders/{orderId}/status','http://example.com/api/v3/mining/orders/{orderId}/result']
+
+  schemas:
+    ActivityDetail:
+      description: |
+        Enthält Details zum Status eines Mining-Auftrags.
+
+        Zur Zeit werden solche Details nur vom `audio-mining`-Workflow während des Audio-Mining-Vorgangs geliefert.
+      type: object
+      properties:
+        activity:
+          type: string
+        status:
+          type: string
+
+    AudioMiningParameters:
+      description: |
+        Optionale Parameter für den `audio-mining`-Workflow.
+      type: object
+      properties:
+        withSpeakerRecognition:
+          type: boolean
+          description: |
+            Aktiviert oder deaktiviert die Sprechererkennung. Standardmäßig ist sie deaktiviert.
+
+    CallbackUrl:
+      type: object
+      properties:
+        callbackUrl:
+          type: string
+          format: url
+          description: |
+            Eine optionale URL, die von der Mining Plattform aufgerufen wird, wenn der Auftrag terminiert.  Die URL wird mit dem `MiningOrderProcessingStatus` als HTTP-POST aufgerufen.
+            
+            Die URL muss das HTTP- oder HTTPS-Schema verwenden.
+
+    EssenceUrl:
+      type: object
+      required:
+        - essenceUrl
+      properties:
+        essenceUrl:
+          type: string
+          format: url
+          description: |
+            Eine URL, die *direkt* auf die zu verarbeitende Essenz verweist.
+            
+            Die URL muss das HTTP- oder HTTPS-Schema verwenden.
+
+    EntityResolverUrl:
+      type: object
+      required:
+        - entityResolverUrl
+      properties:
+        entityResolverUrl:
+          type: string
+          format: url
+          description: |
+            Eine URL, die für eine HTTP-GET-Anfrage die eigentliche Essenzen-URL liefert.
+            
+            Die URL muss das HTTP- oder HTTPS-Schema verwenden.
+            
+            Es ist zu erwarten, dass der Bezeichner `entityResolverUrl` in der
+            Version 4 dieser API in `essenceResolverUrl` umbenannt wird.
+          deprecated: true
+
+    EssenceResolverUrl:
+      type: object
+      required:
+        - essenceResolverUrl
+      properties:
+        essenceResolverUrl:
+          type: string
+          format: url
+          description: |
+            Eine URL, die für eine HTTP-GET-Anfrage die eigentliche Essenzen-URL liefert.
+            
+            Die URL muss das HTTP- oder HTTPS-Schema verwenden.
+
+    IndirectEssenceUrl:
+      oneOf:
+        - $ref: '#/components/schemas/EntityResolverUrl'
+        - $ref: '#/components/schemas/EssenceResolverUrl'
+
+    DisplayName:
+      type: object
+      properties:
+        displayName:
+          type: string
+          maxLength: 1024
+          description: |
+            Ein optionaler Name, der von dies unterstützenden Mining-Workflows als Teil des Anzeigenames verwendet wird.
+
+    ExternalId:
+      description: |
+        Optionale ID, mit der Nutzer der Mining Plattform `MiningOrder`- und `MiningResult`-Objekte miteinander in Beziehung setzen können.
+
+        Eine externe ID ist ein Base64-kodierter Wert, der durch den Nutzer der Mining Plattform vergeben wird. Die Mining Plattform speichert externe IDs zusammen mit den `MiningOrder`-Objekten, und setzt die externe ID an allen `MiningResult`-Objekten. So können Nutzer der Mining Plattform `MiningOrder`- und `MiningResult`-Objekte einander zuordnen.
+      type: object
+      properties:
+        externalId:
+          type: string
+          format: byte
+          maxLength: 1024
+
+    MiningOrder:
+      description: |
+        Repräsentiert einen Mining-Auftrag, der an die Mining Plattform geschickt werden kann.
+
+        Ein Mining-Auftrag enthält einen `workflow`-Bezeichner der den Workflow identifiziert, mit dem die Essenz verarbeitet werden soll. Weiterhin enthält der Mining-Auftrag *entweder* eine `essenceUrl`, die direkt auf die zu analysierende Essenz verweist, *oder* eine `entityResolverUrl` / `essenceResolverUrl`, die für eine HTTP-GET-Anfrage die eigentliche Essenzen-URL liefert. Bei Text-Mining-Workflows kann alternativ zu einer der URLs direkt ein zu analysierender `text` mitgeschickt werden.
+
+        Optional können sowohl eine `externalId` vergeben werden, mit der Nutzer der Mining Plattform `MiningResult`-Objekte mit `MiningOrder`-Objekten korrelieren können, als auch eine Priorität für den Mining Auftrag.
+      allOf:
+        - $ref: '#/components/schemas/Workflow'
+        - $ref: '#/components/schemas/ExternalId'
+        - $ref: '#/components/schemas/Priority'
+        - $ref: '#/components/schemas/CallbackUrl'
+        - $ref: '#/components/schemas/DisplayName'
+        - $ref: '#/components/schemas/Parameters'
+        - oneOf:
+          - $ref: '#/components/schemas/EssenceUrl'
+          - $ref: '#/components/schemas/IndirectEssenceUrl'
+          - $ref: '#/components/schemas/Text'
+
+    MiningOrderProcessingStatus:
+      description: |
+        Beschreibt den Verarbeitungsstatus eines Mining-Auftrags.
+        
+        Status `NEW` zeigt an, dass der Mining-Auftrag in der Mining Plattform angelegt wurde, sich aber noch nicht in Bearbeitung befindet. Befindet sich ein Auftrag in Verarbeitung, so wechselt sein Status zu `RUNNING`.
+        
+        Erfolgreich verarbeitete Mining-Aufträge haben den Status `COMPLETED`, fehlgeschlagene den Status `FAILED`.
+      type: object
+      required:
+        - orderId
+        - processingStatus
+      properties:
+        orderId:
+          type: string
+        externalId:
+          type: string
+        processingStatus:
+          type: string
+          enum:
+            - NEW
+            - RUNNING
+            - COMPLETED
+            - PARTIALLY_COMPLETED
+            - FAILED
+        details:
+          type: array
+          items:
+            $ref: '#/components/schemas/ActivityDetail'
+      readOnly: true
+
+    MiningOrderReceipt:
+      description: |
+        Quittung für einen Mining-Auftrags.
+
+        Eine Quittung enthält eine Auftragsnummer (`orderId`), die den Mining-Auftrag eindeutig in der Mining Plattform identifiziert.
+      type: object
+      properties:
+        orderId:
+          type: string
+          format: uuid
+          readOnly: true
+      required:
+        - orderId
+
+    MiningResult:
+      description: |
+        Enthält das Ergebnis eines Mining-Auftrags.
+
+        Neben der Auftragsnummer, die den Mining-Auftrag in der Mining Plattform identifiziert, enthält das Mining-Ergebnis die `externalId`, damit Nutzer der Mining Plattform das Ergebnis einem Mining-Auftrag zuordnen können.
+        
+        Weiterhin enthält das Mining-Ergebnis Metadaten über den Mining-Service, der das Ergebnis erzeugt hat, sowie das eigentliche Ergebnis.
+      type: object
+      properties:
+        miningOrderId:
+          type: string
+          format: uuid
+          xml:
+            name: miningorderid
+        externalId:
+          type: string
+          format: byte
+          maxLength: 1024
+          xml:
+            name: externalid
+        serviceMetaData:
+          type: object
+          description: |
+            Metadaten zum Mining-Service, der dieses ergebnis produziert hat.
+
+            Momentan wird für `organization` nur der Wert "de.fraunhofer.iais.netmedia", für `name` der Name des entsprechenden Mining-Services und für `version` eine service-abhängige Versionsnummer verwendet.
+          properties:
+            organization:
+              type: string
+            name:
+              type: string
+            version:
+              type: string
+          xml:
+            name: servicemetadata
+        mediaType:
+          type: string
+          description: |
+            Der MIME-Type des eigentlichen Mining-Ergebnisses.
+          xml:
+            name: mediatype
+        result:
+          type: object
+          description: |
+            Das eigentliche Mining-Ergebnis als MPEG-7-Element.
+          xml:
+            name: Mpeg7
+            namespace: urn:mpeg:mpeg7:schema:2004
+      xml:
+        name: miningresult
+
+    Parameters:
+      type: object
+      properties:
+        audio-mining:
+          $ref: '#/components/schemas/AudioMiningParameters'
+        language:
+          type: string
+          enum:
+            - de
+            - en
+          default: de
+          deprecated: true
+          description: |
+            Hinweis: Dieser Parameter ist obsolet. Die Sprache, in der der Mining-Auftrag bearbeitet werden soll, wird
+            zukünftig über Workflow-Konfigurationen ausgewählt.
+
+            ISO-639-1-Code für die Sprache, in der der Mining-Auftrag bearbeitet werden soll.
+            
+            Durch Angabe der Sprache wird bei Mining-Services, die dies unterstützen, ein entsprechendes Modell für diese Sprache ausgewählt.
+
+    Priority:
+      type: object
+      properties:
+        priority:
+          type: integer
+          minimum: 0
+          maximum: 1
+          default: 0
+          description: |
+            Priorität des Mining-Auftrags.
+
+            Mining-Aufträge mit höherer Priorität werden vor Aufträgen mit niedrigerer Priorität ausgeführt.
+
+            Der derzeitige Wertebereich wird mit der Zeit noch um weitere Prioritätsstufen ergänzt werden.
+
+    Text:
+      description: |
+        Ein UTF-8-kodierter Text, der von einem Text-Mining-Workflow analysiert werden soll.
+
+        Die maximal erlaubte Länge sind 2 Millionen Zeichen.
+      type: object
+      properties:
+        text:
+          type: string
+          minLength: 1
+          maxLength: 2000000
+
+    Workflow:
+      type: object
+      properties:
+        workflow:
+          type: string
+          enum:
+            - audio-mining
+            - keyword-extraction
+            - named-entity-linking
+            - named-entity-recognition
+            - semantic-tagging
+            - text-translation
+            - topic-modeling
+          description: |
+            Auszuführender Workflow.
