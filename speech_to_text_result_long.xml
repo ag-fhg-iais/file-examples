@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<miningResults>
+  <miningresult>
+    <miningorderid>981efc2c-c40a-42b2-aa96-2e9435c08c12</miningorderid>
+    <servicemetadata>
+      <organization>de.fraunhofer.iais.netmedia</organization>
+      <name>speech-recognition</name>
+      <version>1.0.0</version>
+    </servicemetadata>
+    <mediatype>application/xml</mediatype>
+    <mpeg7:Mpeg7 xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004"
+      xmlns:ifinder="http://www.iais.fraunhofer.de/ifinder">
+      <mpeg7:DescriptionMetadata>
+        <mpeg7:Version>1.0</mpeg7:Version>
+        <mpeg7:CreationTime>2015-11-25T07:42:33</mpeg7:CreationTime>
+      </mpeg7:DescriptionMetadata>
+      <mpeg7:Description xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:type="mpeg7:MediaDescriptionType">
+        <mpeg7:MediaInformation id="id_rus_dw_novosti_14_01_2024_mp3">
+          <mpeg7:MediaProfile master="true">
+            <mpeg7:MediaInstance>
+              <mpeg7:InstanceIdentifier encoding="text">981efc2c-c40a-42b2-aa96-2e9435c08c12</mpeg7:InstanceIdentifier>
+              <mpeg7:MediaLocator>
+                <mpeg7:MediaUri>
+                  https://share.ard-zdf-box.de/s/x54fgtztrp8ds6J/download/RUS_DW_Novosti_14.01.2024.mp3</mpeg7:MediaUri>
+              </mpeg7:MediaLocator>
+            </mpeg7:MediaInstance>
+          </mpeg7:MediaProfile>
+        </mpeg7:MediaInformation>
+      </mpeg7:Description>
+      <mpeg7:Description xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:type="mpeg7:CreationDescriptionType">
+        <mpeg7:CreationInformation>
+          <mpeg7:Creation>
+            <mpeg7:Title phoneticAlphabet="sampa" type="main">rus_dw_novosti_14_01_2024_mp3</mpeg7:Title>
+          </mpeg7:Creation>
+          <mpeg7:Classification>
+            <mpeg7:Genre href="urn:mpeg:mpeg7:cs:IFinderGenreCS:2010:1" />
+          </mpeg7:Classification>
+        </mpeg7:CreationInformation>
+      </mpeg7:Description>
+      <mpeg7:Description xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:type="mpeg7:ContentEntityType">
+        <mpeg7:MultimediaContent xsi:type="mpeg7:AudioType">
+          <mpeg7:Audio>
+            <mpeg7:MediaTime>
+              <mpeg7:MediaTimePoint>T00:00:00:00F100</mpeg7:MediaTimePoint>
+              <mpeg7:MediaDuration>PT100F</mpeg7:MediaDuration>
+            </mpeg7:MediaTime>
+            <mpeg7:TemporalDecomposition criteria="iFinderSDK Audio Segmentation" gap="false"
+              overlap="false">
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:00:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+                            <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:01:00F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S90N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="4 2" xsi:type="ifinder:IntegerMatrixType">1000
+                      320 1320 340 2240 220 2460 440</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Дойче Велле, ДВ Новости.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:02:90F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT09S43N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:12:33F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT05S58N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">2</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="11 2" xsi:type="ifinder:IntegerMatrixType">12330
+                      320 12650 900 13550 740 14290 480 14770 440 15210 440 15650 720 16374 500
+                      16874 300 17174 200 17374 540</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>После пятидневного перерыва Россия вновь нанесла
+                      массированный ракетный удар по Украине.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:17:91F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT01S66N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:00:19:57F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT40S86N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">2</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="85 2" xsi:type="ifinder:IntegerMatrixType">19577
+                      400 19977 380 20357 380 20737 300 21037 440 21477 180 21657 620 22277 360
+                      22640 420 23060 400 24642 220 24862 1080 25942 340 26282 120 26402 340 26742
+                      580 27322 900 28225 620 28845 480 29325 100 29425 1060 31248 320 31568 240
+                      31808 180 31988 160 32148 500 32648 660 33308 480 33788 600 34388 160 34548
+                      480 35032 660 35692 400 36092 160 36252 380 36932 480 37412 200 37612 180
+                      37792 280 38072 520 38592 400 39357 480 39837 100 39937 920 40857 360 41217
+                      540 41919 420 42339 740 43079 340 43419 180 43599 320 44362 80 44442 500 44942
+                      380 45322 180 45502 100 45602 360 45962 480 46442 560 47382 200 47582 400
+                      47985 580 48565 440 49245 640 49885 360 50245 540 50785 500 51929 780 52709
+                      480 53189 120 53309 480 53789 520 54309 320 54629 120 54752 460 55593 180
+                      55773 680 56453 460 56913 740 57653 280 57933 360 58293 480 58776 680 59456
+                      640 60096 380</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Атака длилась почти три часа и закончилась около
+                      восьми утра. Так невыспавшиеся утром в субботу киевляне пережидали воздушную
+                      тревогу в метро. Всего в ночь на 13 января Россия выпустила по Украине 40
+                      ракет и дронов, большинство из них не достигли цели, заявили в
+                      военно-воздушных силах Украины. Но попадания все же есть. В городе Днепр и в
+                      Шостке Сумской области, где одна женщина ранена, повреждены почти 30 домов.
+                      Комбинированные удары по Украине начались еще в декабре. Они повторяются
+                      каждые четыре-пять дней в попытке истощить украинскую ПВО.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:01:00:43F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT37N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:01:00:80F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT94N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">3</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="2 2" xsi:type="ifinder:IntegerMatrixType">60800
+                      480 61280 460</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Лев Чернобыль</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:01:01:74F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT02N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:01:01:76F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT12S24N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">4</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="33 2" xsi:type="ifinder:IntegerMatrixType">61760
+                      200 61960 220 62180 120 62300 800 63100 140 63240 660 63900 460 64540 180
+                      64720 320 65043 640 65683 160 65843 260 66103 200 66303 560 66863 140 67003
+                      560 67563 540 68106 960 69066 100 69166 580 70228 120 70348 360 70708 340
+                      71048 100 71148 440 71968 60 72028 200 72228 140 72368 220 72588 220 72948 120
+                      73068 280 73351 660</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Я была в Чернобыевке на похоронах мамы, потому что
+                      незадолго до этого она погибла от минометного обстрела буквально в Сочельник.
+                      Нам пришлось ехать в Херсон, и пока мы были там, тут такое произошло.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+              <mpeg7:AudioSegment xsi:type="mpeg7:AudioSegmentType">
+                <mpeg7:MediaTime xsi:type="mpeg7:MediaTimeType">
+                  <mpeg7:MediaTimePoint>T00:29:31:24F100</mpeg7:MediaTimePoint>
+                  <mpeg7:MediaDuration>PT23S80N100F</mpeg7:MediaDuration>
+                </mpeg7:MediaTime>
+                <mpeg7:AudioDescriptor xsi:type="ifinder:SpokenContentType">
+                  <ifinder:Speaker gender="unknown" xsi:type="ifinder:SpeakerType">
+                    <mpeg7:Name type="main" xsi:type="mpeg7:PersonNameType">
+                      <mpeg7:GivenName phoneticAlphabet="sampa" xsi:type="mpeg7:NameComponentType">
+                        unknown</mpeg7:GivenName>
+                    </mpeg7:Name>
+                    <ifinder:Identifier scope="local" xsi:type="ifinder:SpeakerIdType">1</ifinder:Identifier>
+                    <ifinder:LinkedDataId />
+                  </ifinder:Speaker>
+                  <ifinder:Transcription linguisticUnit="word" xsi:type="ifinder:TranscriptionType">
+                    <ifinder:StartTimeDurationMatrix dim="57 2" xsi:type="ifinder:IntegerMatrixType">1771240
+                      320 1771560 220 1771900 40 1771940 140 1772080 120 1772200 280 1772480 180
+                      1772660 340 1773000 560 1773782 100 1773882 420 1774302 980 1775282 880
+                      1776162 460 1776625 260 1776885 360 1777245 380 1777625 440 1778665 440
+                      1779105 840 1779945 280 1780225 460 1780689 120 1780809 440 1781249 240
+                      1781489 300 1781789 440 1782229 460 1782689 120 1782809 380 1783189 240
+                      1783429 500 1784273 100 1784373 200 1784573 260 1784833 240 1785073 320
+                      1785393 560 1785953 1500 1787453 1020 1788873 220 1789093 100 1789193 100
+                      1789293 360 1789653 480 1790138 460 1790598 180 1790778 460 1791238 360
+                      1791598 240 1791838 360 1792198 160 1792358 240 1792598 320 1792921 540
+                      1793702 540 1794242 240 1794482 280 1794762 300</ifinder:StartTimeDurationMatrix>
+                    <ifinder:ConfidenceVector>1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+                      1.0 1.0 1.0 1.0 1.0 1.0</ifinder:ConfidenceVector>
+                    <ifinder:SpokenUnitVector>Это всё, о чём мы успели вам сегодня рассказать. Вы
+                      слушали аудиоверсию информационной программы Deutsche Welle ДВ Новости, полную
+                      видео-версию ДВ Новостей вы найдёте на нашем канале ДВ на Русском в Ютьюбе, а
+                      также на нашем сайте dw.com.ru, там же вы найдёте последние сообщения на
+                      актуальные темы и ссылки на все наши каналы. Оставайтесь на нашей волне.</ifinder:SpokenUnitVector>
+                  </ifinder:Transcription>
+                  <ifinder:Model>large-v2</ifinder:Model>
+                  <ifinder:Language>ru-RU</ifinder:Language>
+                  <ifinder:Partial>false</ifinder:Partial>
+                </mpeg7:AudioDescriptor>
+              </mpeg7:AudioSegment>
+            </mpeg7:TemporalDecomposition>
+          </mpeg7:Audio>
+        </mpeg7:MultimediaContent>
+      </mpeg7:Description>
+    </mpeg7:Mpeg7>
+  </miningresult>
+</miningResults>
